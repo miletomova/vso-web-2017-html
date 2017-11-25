@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+	<form method="" action="" enctype="">
+		<p>
+			<label for="first_name">Име:
+				<input type="text" id="first_name" name="first_name" value="" placeholder="" required="true">
+			</label>
+		</p>
+		<p>
+			Години:<input type="number" name="age" value="" placeholder="10" required>
+		</p>
+		<p>
+			Парола:<input type="password" name="password" value="" placeholder="">
+		</p>
+		<p>
+			Email:<input type="email" name="email" value="" placeholder="">
+		</p>
+		<p>
+			<label for="accept">Accept
+				<input type="checkbox" id="accept" name="accept" value="accept">
+			</label>
+			<label for="decline">Decline
+				<input type="checkbox" id="decline" name="decline" value="decline">
+			</label>
+		</p>
+		<p>
+			<label for="agree">Agree
+				<input type="radio" name="agreement" id="agree" value="agree">
+			</label>
+			<label for="disagree">Disagree
+				<input type="radio" name="agreement" id="disagree" value="disagree">
+			</label>
+		</p>
+		<p>
+			<label for="message">Message
+				<textarea id="message" name="message" placeholder="text">
+					
+				</textarea>
+			</label>
+		</p>
+		<p>
+			Age
+			<select name="age">
+				<option value="">Choose age</option>
+				<option value="1">Under 18</option>
+				<option value="2" selected>19-36</option>
+				<option value="3">37-45</option>				
+			</select>
+		</p>
+		<span><i class="fa fa-search" aria-hidden="true"></i></span>
+		<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+	</form>	
+</body>
+</html>

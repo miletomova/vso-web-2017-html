@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="">
+	<p>
+		<label for="message">Message
+			<textarea name="message" id="message">
+				message here...
+			</textarea>
+		</label>
+	</p>
+	<p>
+		<label for="agreement">
+			Agree
+			<input type="checkbox" id="agreement" name="agree" value="agree">	
+		</label>	
+		<label for="disagreement">
+			DisAgree
+			<input type="checkbox" id="disagreement" name="disagree" value="disagree">	
+		</label>
+	</p>
+	<p>
+		<label for="vegan">
+			Vegan
+			<input type="radio" name="food" value="vegan" id="vegan">
+		</label>
+		<label for="predator">
+			Predator
+			<input type="radio" name="food" value="predator" id="predator">
+		</label>
+	</p>
+	<p>
+		Age
+		<select name="age">
+			<option value="">---</option>
+			<option value="1">15-20</option>
+			<option value="2" selected>20-30</option>
+			<option value="2">30-40</option>
+		</select>
+	</p>
+		<input type="hidden" name="secret" value="secret">
+		<input type="submit" name="submit" value="submit">
+	</form>
+</body>
+</html>
