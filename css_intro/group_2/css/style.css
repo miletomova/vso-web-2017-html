@@ -1,0 +1,18 @@
+a {
+	text-decoration: none;
+	cursor: move
+}
+
+ul {
+	list-style-type: none
+}
+
+table {
+	border: 2px solid #690B74;
+	border-top: none;
+	border-bottom: 4px dashed #0F1E8F
+}
+
+.pink td, .pink-pink {
+	background-color: #F20AEA
+}
