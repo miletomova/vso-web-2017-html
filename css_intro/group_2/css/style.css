@@ -10,9 +10,34 @@ ul {
 table {
 	border: 2px solid #690B74;
 	border-top: none;
-	border-bottom: 4px dashed #0F1E8F
+	border-bottom: 4px dashed #0F1E8F;
+	border-collapse: collapse
 }
 
-.pink td, .pink-pink {
-	background-color: #F20AEA
+td {
+	background-color: #F20AEA;
+	border: 2px solid #000
+}
+
+li {
+	background-color: #F19898;
+	width: 60px;
+	height: 100px;
+	display: inline-block;
+}
+
+a {
+	background-color: #F45A8D;
+	height: 70px;
+	width: 50px;
+	display: inline-block
+}
+
+li a {
+	display: none
+}
+
+#hide {
+	/*display: none*/
+	visibility: hidden
 }
