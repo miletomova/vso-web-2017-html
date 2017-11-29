@@ -1,0 +1,13 @@
+body, div, a{
+	margin:0;
+	padding: 0
+}
+
+div {
+	background-color: #F90606
+}
+
+a {
+	background-color: #08E913
+}
+

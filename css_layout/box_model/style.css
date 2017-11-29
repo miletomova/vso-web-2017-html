@@ -1,0 +1,21 @@
+div {
+	background-color: #FC0A0A
+}
+
+span {
+	background-color: #E211F5
+}
+
+/*div, span {
+	width: 200px;
+	height: 200px
+}*/
+span, div {
+	display: inline-block;
+}
+
+div, span {
+	padding: 50px;
+	border: 10px solid #13D904;
+	margin: 50px
+}

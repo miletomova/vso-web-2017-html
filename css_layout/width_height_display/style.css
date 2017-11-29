@@ -1,0 +1,30 @@
+
+div {
+	background-color: #F90606
+}
+
+a {
+	background-color: #08E913
+}
+
+a {
+	display: block
+}
+div {
+	display: inline
+}
+div, a {
+	display: inline-block
+}
+
+div, a {
+	width: 150px;
+	height: 150px;
+}
+
+div#display-none {
+	display: none
+}
+div#visibility-hidden {
+	visibility: hidden
+}

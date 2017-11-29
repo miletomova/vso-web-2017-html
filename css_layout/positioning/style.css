@@ -1,0 +1,23 @@
+	
+div#fixed {
+	background-color: #F90606;
+	position: fixed
+}
+div {
+	background-color: #2EE710
+}
+div#relative {
+	background-color: #FDFA04;
+	position: relative;
+	top: -20px;
+	left: 50px
+}
+div#absolute {
+	background-color: #F603AF;
+	position: absolute;
+	top: 100px;
+	left: 100px
+}
+div#bg {
+	background-color: #07FBBF
+}
