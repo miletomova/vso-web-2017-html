@@ -1,0 +1,50 @@
+body, div, span, li, a {
+	margin: 0;
+	padding: 0
+}
+/*body {
+	background-image: url('../img/img_fjords.jpg');
+}*/
+div {
+	width: 200px;
+	height: 200px;
+	background-color: #0730FF;
+	padding: 20px;
+	border: 20px solid #A4FE06;
+	/*margin: 20px;*/
+}
+
+span {
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #03F80F;
+	/*padding: 20px;*/
+	display: inline-block;
+	border: 20px solid #C812FC;
+	/*margin: 20px*/
+}
+
+span#dark {
+	background-color: #0C3612
+}
+ul {
+	padding: 2px;
+}
+
+li {
+	/*background-color: #EAED09;*/
+	display: inline;
+	margin: 10px;
+	/*padding: 10px;*/
+}
+
+a {
+	text-decoration: none;
+	background-color: #EAED09;	
+	color:#0F14F6;
+	padding: 10px;
+}
+
+ul {
+	background-color: #F95B5B
+}

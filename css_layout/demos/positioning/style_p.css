@@ -1,0 +1,40 @@
+html, body, div {
+	margin: 0;
+	padding:0
+}
+div {
+	background-color: #F60909
+}
+#fixed {
+	background-color: #B3F319;
+	position: fixed;
+	top: 50px;
+	left: 50px
+}
+#relative {
+	background-color: #0DAFF3;
+	position: relative;
+	top: 40px;
+	left: 40px
+}
+#relative2 {
+	background-color: #E013FE
+}
+#parent {
+	position: relative;
+	background-color: #770987;
+	width: 50%;
+	height: 500px
+}
+#absolute {
+	background-color: #FB7A12;	
+	position: absolute;
+	top:50px;
+	left: 2%;
+	width: 50%
+}
+
+#absolute2 {
+	background-color: #0BF41B;
+
+}

@@ -1,0 +1,45 @@
+table {
+	border: 2px solid #FB0404;
+	border-collapse: collapse
+}
+
+.brd-bottom {
+	border-bottom: 2px dashed #000;
+}
+
+.brd-left {
+	border-left: 2px dashed #000;
+}
+
+.left-green {
+	border-left: 2px solid #107A08
+}
+
+.top-green {
+	border-top: 2px solid #107A08	
+}
+
+.right-green {
+	border-right: 2px solid #107A08	
+}
+.bottom-green {
+	border-bottom: 2px solid #107A08	
+}
+.left-yellow {
+	border-left: 2px solid #F6EE13
+}
+.bottom-yellow {
+	border-bottom: 2px solid #F6EE13
+}
+.grey-yellow {
+	background-color: #ccc;
+	color: #F7F40A;
+}
+.orange-blue {
+	background-color: #FCBA08;
+	color: #220CF2;
+}
+.brown-blue {
+	background-color: #08FCF9;
+	color: #3B3306;
+}

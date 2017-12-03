@@ -1,0 +1,23 @@
+body, ul, li, a {
+	margin: 0;
+	padding: 0
+}
+
+ul {
+	background-color:#F86A6A;
+	padding: 5px
+}
+li {
+	display: inline-block;
+	/*list-style-type: none;*/
+	padding: 4px;
+	background-color: #250808;
+
+
+}
+a {
+	color: #F9CACA;
+	background-color: #5FEA2F;
+	padding: 4px;
+	text-decoration: none;
+}

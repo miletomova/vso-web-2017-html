@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #605454
+}
+
+#container {
+	width: 90%;
+	height: 1000px;
+	background-color: #FAB90A;
+	margin-left: 5%
+}
+
+header {
+	height: 150px;
+	background-color: #09C9EC
+}
+#container div {
+	position: relative;
+	top: 10px;
+	height: 600px;
+	background-color: #18F20D
+}
+main {
+	width: 80%;
+	background-color: #0F22D5;
+	height: 600px
+}
+aside {
+	width: 18%;
+	height: 100%;
+	background-color: #3E032E;
+	position: absolute;
+	top: 0;
+	left: 81.9%
+}
