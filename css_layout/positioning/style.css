@@ -1,23 +1,26 @@
-	
-div#fixed {
-	background-color: #F90606;
-	position: fixed
-}
 div {
-	background-color: #2EE710
+	background-color: #F30A0A
 }
-div#relative {
-	background-color: #FDFA04;
+#fixed {
+	background-color: #18E70E;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+/*#relative {
+	background-color: #11F7F4;
 	position: relative;
 	top: -20px;
-	left: 50px
+	left: -20px
+}*/
+main {
+	position: relative;
 }
-div#absolute {
-	background-color: #F603AF;
+#absolute {
+	background-color: #F4DD1D;
 	position: absolute;
-	top: 100px;
-	left: 100px
+	top: -20px;
+	left: 0
 }
-div#bg {
-	background-color: #07FBBF
-}
+
+

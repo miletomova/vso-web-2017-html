@@ -1,0 +1,63 @@
+body, header, main, div, aside,
+h2, ul, li, a, footer {
+	margin: 0;
+	padding:0
+}
+body {
+	background-color: #512E2E
+}
+#wrap {
+	width: 90%;
+	background-color: #E5FC1F;
+	margin-left: 5%;
+	position: relative;
+	height: 1000px
+}
+#wrap .container {
+	width: 67%;
+	background-color: #6DF85A;
+	position: absolute;
+	left: 32.5%;
+	height: 900px;
+
+}
+#wrap main .container {
+	width: 100%;
+	left: 0;
+	background-color: #0B3EE3;
+	position: relative;
+	height: 750px
+}
+aside {
+	width: 30%;
+	background-color: #FC8E0C;
+	position: absolute;	
+	height: 900px
+}
+header {
+	padding: 60px 0;
+	text-align: center;
+	background-color: #13C2FC
+}
+
+main {
+	background-color: #FA03E0;
+	margin-top: 10px
+}
+section {
+	width: 48%;
+	background-color: #BDF644
+}
+section#second {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+footer {
+	position: absolute;
+	top: 910px;
+	padding: 40px 0;
+	background-color: #F00B0B;
+	text-align: center;
+	width: 100%
+}

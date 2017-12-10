@@ -1,0 +1,38 @@
+html, body, div, header, 
+main, aside, footer {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background-color: #594B4B;
+
+}
+#wrapper {
+	background-color: #F6BC0A;
+	width: 80%;
+	margin-left: 10%;	
+}
+header {
+	background-color: #23F1D1;
+	height: 200px
+}
+#container {
+	background-color: #F22C12;
+	position: relative;
+	top: 10px
+}
+main {
+	background-color: #FE17DB;
+	width: 80%;
+	height: 600px
+}
+aside {
+	position: absolute;
+	top: 0;
+	left: 84.7%;
+	width: 15%;
+	height: 600px;
+	background-color: #09F12F;
+
+}

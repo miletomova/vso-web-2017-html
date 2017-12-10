@@ -1,0 +1,22 @@
+p {
+	margin:0;
+	padding:0;
+	border: 2px solid #000
+}
+#first {
+	padding-top: 100px;
+	padding-right: 150px;
+	margin-right: 1150px;
+	background-color: #FD0CCD;
+}
+#second {
+	margin-left: 150px;
+	background-color: #fff;
+	border: none;
+}
+#third {
+	padding-bottom: 100px;
+	padding-right: 150px;
+	margin-right: 1150px;
+	background-color: #940B99
+}
