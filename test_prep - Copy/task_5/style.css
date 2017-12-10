@@ -1,0 +1,62 @@
+body, div, header, main, 
+aside, ul, li, a, section, p
+img {
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #1F1515;
+	width: 100%
+}
+#wrapper {
+	width: 90%;
+	background-color: #594949;
+	height: 1000px;
+	margin: auto;
+	position: relative
+}
+#container {
+	background-color: #35F55E;
+	width: 67%;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 33%
+}
+aside {
+	background-color: #F98513;
+	width: 30%;
+	height: 800px;
+	position: absolute;
+	top: 0
+}
+header {
+	text-align: center;
+	padding: 60px;
+	background-color: #02F5DB
+}
+main {	
+	background-color: #3838F8;	
+	position: relative;
+	top: 10px
+}
+section {
+	width: 48%
+}
+#second {
+	position: absolute;
+	top: 0;
+	left:51.8%;
+}
+p, article {
+	padding: 10px;
+	background-color: #E4F114
+}
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #EE0404;
+	position: relative;
+	top: 810px
+}

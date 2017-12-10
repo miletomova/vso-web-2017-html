@@ -1,0 +1,24 @@
+body, ul, li, a {
+	margin:0;
+	padding: 0
+}
+ul {
+	background-color: #EE91DE;
+	padding: 10px 0 10px 40px;
+}
+li {
+	display: inline-block;
+	padding: 7px;	
+}
+a {
+	text-decoration: none;
+	display: block;
+	padding: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #5D0E51
+}
+#central {
+	border-left: 2px solid #560955;
+	border-right: 2px solid #560955;
+}
